@@ -28,8 +28,8 @@ while True:
     rm = input('RM: ')
     if rm == '':
         break
-    nome = input('Nome: ')
     if rm not in alunos:
+        nome = input('Nome: ')
         alunos[rm] = nome                    # insere no dicionário
     else:
         print('O RM já está cadastrado')
